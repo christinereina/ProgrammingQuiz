@@ -1,8 +1,8 @@
 $(document).ready(function() {
-  $("#formOne").submit(function() {
+  $("#btn").click(function() {
     var program = $("input:radio[name=program]:checked").val();
 
-    if (program === "a") {
+  if (program === "a") {
       document.body.style.backgroundColor = "blue";
   } else if (program === "b") {
     document.body.style.backgroundColor = "yellow";
