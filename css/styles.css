@@ -14,3 +14,18 @@ h1 {
 #quote {
   display: none;
 }
+
+.btn {
+  border: solid 1px gray;
+}
+
+.element-showing0 {
+  display: none;
+  text-align: center;
+}
+
+.clickable0 {
+  text-decoration: underline;
+  color: blue;
+  text-align: center;
+}

@@ -1,16 +1,25 @@
 $(document).ready(function() {
-  $("#btn").click(function() {
-    var program = $("input:radio[name=program]:checked").val();
+  $("form#quiz").submit(function(event) {
+    event.preventDefault();
 
-  if (program === "a") {
+    var faveprogram = $("input:radio[name=program]:checked").val();
+
+  if ( faveprogram === "a") {
       document.body.style.backgroundColor = "blue";
-  } else if (program === "b") {
+  } else if (faveprogram === "b") {
     document.body.style.backgroundColor = "yellow";
-  } else if (program === "c") {
+  } else if (faveprogram === "c") {
     document.body.style.backgroundColor = "red";
   } else {
     document.body.style.backgroundColor = "black";
   }
-  event.preventDefault();
+
+  $(document).ready(function() {
+    $(".clickable0").click(function() {
+      $(".element-hidden0").toggle();
+      $(".element-showing0").toggle();
+    });
+  });
+
   });
 });
