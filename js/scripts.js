@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  $(".btn").click(function() {
+  $("#formOne").submit(function() {
     var program = $("input:radio[name=program]:checked").val();
 
     if (program === "a") {
