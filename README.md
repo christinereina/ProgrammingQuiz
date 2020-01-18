@@ -1,6 +1,6 @@
-# Portfolio
+# Programming Language Suggester
 
-#### Git, HTML and CSS Exercise for Epicodus, 01.10.2020
+#### JavaScript & jQuery Week Two Exercise for Epicodus, 01.17.2020
 
 #### **By Christine Augustine **
 
