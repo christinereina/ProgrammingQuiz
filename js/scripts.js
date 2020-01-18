@@ -9,11 +9,11 @@ $(document).ready(function() {
     var question5 = parseInt($("input:radio[name=q5]:checked").val());
     var result = question1 + question2 + question3 +  question4 + question5;
 
-  if (result >=9) {
+  if (result >=11) {
       document.body.style.backgroundColor = "blue";
-  } else if (result >=6) {
+  } else if (result >=7) {
     document.body.style.backgroundColor = "yellow";
-  } else if (result >=3) {
+  } else if (result >=5) {
     document.body.style.backgroundColor = "red";
   } else {
     document.body.style.backgroundColor = "black";
